@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Roulette - Discover New Skills!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-dice"></i> Skill Roulette
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-2 text-white mb-4">Skill Roulette</h1>
+            <p class="lead text-white mb-5">Discover a new skill in just a few minutes!</p>
+            
+            <!-- Progress Stats -->
+            <div class="progress-stats mb-4">
+                <div class="stats-item">
+                    <i class="fas fa-trophy"></i>
+                    <span id="completedCount">0</span> Skills Completed
+                </div>
+                <div class="stats-item">
+                    <i class="fas fa-calendar-day"></i>
+                    Daily Challenge: <span id="dailySkill">Not Started</span>
+                </div>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="category-filter mb-4">
+                <button class="filter-btn active" data-category="all">
+                    <i class="fas fa-globe"></i> All
+                </button>
+                <button class="filter-btn" data-category="creative">
+                    <i class="fas fa-paint-brush"></i> Creative
+                </button>
+                <button class="filter-btn" data-category="practical">
+                    <i class="fas fa-tools"></i> Practical
+                </button>
+                <button class="filter-btn" data-category="fitness">
+                    <i class="fas fa-dumbbell"></i> Fitness
+                </button>
+                <button class="filter-btn" data-category="tech">
+                    <i class="fas fa-laptop-code"></i> Tech
+                </button>
+            </div>
+
+            <button class="spin-button mb-4" id="spinButton">
+                <i class="fas fa-random"></i> Spin for a Skill!
+            </button>
+            
+            <!-- Skill Card -->
+            <div class="skill-card" id="skillCard">
+                <h2 class="skill-title mb-3">Skill Name</h2>
+                <div class="skill-content">
+                    <div class="difficulty-badge mb-2"></div>
+                    <p class="skill-description mb-3"></p>
+                    <div class="skill-media mb-3"></div>
+                    <p class="time-required mb-2"></p>
+                    <div class="resource-links mb-3"></div>
+                    
+                    <!-- Rating System -->
+                    <div class="rating-container mb-3">
+                        <p class="average-rating mb-2">Average Rating: <span class="rating-value">No ratings yet</span></p>
+                        <div class="stars">
+                            <i class="far fa-star" data-rating="1"></i>
+                            <i class="far fa-star" data-rating="2"></i>
+                            <i class="far fa-star" data-rating="3"></i>
+                            <i class="far fa-star" data-rating="4"></i>
+                            <i class="far fa-star" data-rating="5"></i>
+                        </div>
+                        <p class="rating-message mt-2"></p>
+                    </div>
+
+                    <!-- Skill Actions -->
+                    <div class="skill-actions mt-3">
+                        <button class="action-btn" id="markCompleted">
+                            <i class="fas fa-check"></i> Mark as Completed
+                        </button>
+                    </div>
+
+                    <div class="share-buttons mt-4">
+                        <button class="share-btn" id="shareButton">
+                            <i class="fas fa-share-alt"></i> Share with Friends
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
