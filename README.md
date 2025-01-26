@@ -1,6 +1,10 @@
 # spinskil
 Skill Roulette is a fun and interactive web application that helps you discover new skills in various categories such as Creative, Fitness, Practical, and Tech. By simply spinning the wheel, you can randomly get a skill to explore and learn. Track your progress, and challenge yourself to complete new skills daily!
 
+TEAM NAME:DATA DREAMERS
+TEAM MEMBERS:SREENANDHA B,P ADITHYA, SWETHA V N
+
+
 Features
 Skill Categories: Skills are organized into categories (Creative, Practical, Fitness, Tech).
 Spin to Discover: Click the "Spin for a Skill" button to randomly discover a new skill.
