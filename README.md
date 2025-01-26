@@ -2,33 +2,37 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: DATA DREAMERS
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: SREENANDHA B LBS
+- Member 2: ADITHYA  LBS
+- 
+- Member 3: SWETHA LBS
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://dithyaadii.github.io/spinskill/
 
 ### Project Description
-[2-3 lines about what your project does]
+A website that gives users a random skill to learn or try.
+- Users click a button to get a skill suggestion with resources to get started.
+- Perfect for quick learning, boredom, or trying something new.
+![image](https://github.com/user-attachments/assets/41afe0ef-4438-4652-bfc8-aa9f2b2eb3d1)
+
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+UNNECCESARY USE OF MOBILES IN KIDS LEAD TO BAD HABITS
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+A website that gives users a random skill to learn or try.
+- Users click a button to get a skill suggestion with resources to get started.
+- Perfect for quick learning, boredom, or trying something new.THIS WEBSITE GIVES A AREA TO SPIN AND WE GETS A RANDOM SKILL TO DO IN A CERTAIN TIME
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML,CSS,JS,NODE.JS
 
 For Hardware:
 - [List main components]
@@ -41,7 +45,7 @@ For Software:
 [commands]
 
 # Run
-[commands]
+INDEX.HTML
 
 ### Project Documentation
 For Software:
@@ -81,6 +85,8 @@ For Hardware:
 
 ![Final](Add photo of final product here)
 *Explain the final build*
+![WhatsApp Image 2025-01-26 at 11 38 29_d8c844d0](https://github.com/user-attachments/assets/d373ef51-36b2-413e-922a-eeb6e6267b34)
+
 
 ### Project Demo
 # Video
@@ -91,9 +97,10 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+-SREENANDHA-HTML 
+SWETHA-CSS 
+ADITHYA-JS
+
 
 ---
 Made with ❤️ at TinkerHub
